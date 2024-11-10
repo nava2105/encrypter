@@ -40,7 +40,7 @@ docker pull na4va4/encrypter
 ```
 Start a container from the image
 ```
-docker run -p 8080:8080 na4va4/encrypter
+docker run -p 8080:80 na4va4/encrypter
 ```
 Open a browser and enter to
 [http://localhost:8080](http://localhost:8080)

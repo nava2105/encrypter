@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
 RUN a2enmod rewrite
 
 # Establecer el ServerName para suprimir la advertencia
-RUN echo "ServerName 0.0.0.0" >> /etc/apache2/apache2.conf
+RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
 
 # Copiar la configuración de Apache
 COPY apache.conf /etc/apache2/sites-available/000-default.conf
