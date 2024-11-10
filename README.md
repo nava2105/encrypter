@@ -16,17 +16,16 @@ A list of technologies used within the project:
 ***
 There are two methods to install this project.
 ### Via GitHub
-There is also two ways to install this project if you want to get it via GitHub.
 #### Using Docker
 Verify you are running Docker or Docker Desktop and open a terminal in the folder you want to install the application.
 
 Copy the repository
 ```
-git clone https://github.com/nava2105/kanban-app.git
+git clone https://github.com/nava2105/encrypter.git
 ```
 Enter the directory
 ```
-cd ../kanban-app
+cd ../encrypter
 ```
 Build and run the container
 ```
@@ -34,37 +33,14 @@ docker-compose up --build
 ```
 Open a browser and enter to
 [http://localhost:8080](http://localhost:8080)
-#### Not using Docker
-Verify you are using Java version 17
-```
-java -version
-```
-Verify you have Maven installed
-```
-mvn -version
-```
-Copy the repository
-```
-git clone https://github.com/nava2105/kanban-app.git
-```
-Enter the directory
-```
-cd ../kanban-app
-```
-Compile the project directly form mvn
-```
-mvn spring-boot:run
-```
-Open a browser and enter to
-[http://localhost:8080](http://localhost:8080)
 ### Via Docker-hub
 Pull the image from Docker-hub
 ```
-docker pull na4va4/kanban-board
+docker pull na4va4/encrypter
 ```
 Start a container from the image
 ```
-docker run -p 8080:8080 na4va4/kanban-board
+docker run -p 8080:8080 na4va4/encrypter
 ```
 Open a browser and enter to
 [http://localhost:8080](http://localhost:8080)
